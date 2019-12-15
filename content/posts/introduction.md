@@ -2,7 +2,6 @@
 title: "Introduction"
 date: 2019-12-14
 description: "Intro to this blog"
-draft: true
 ---
 
 I never had a blog, the idea didn't feel like something I would want to do.
