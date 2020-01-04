@@ -42,12 +42,10 @@ paginate = 10
     # root by Hugo. For example if you have custom CSS file under `static/css/custom.css` then
     # you can specify custom css path as `css/custom.css`.
     customCSS = "css/custom.css"
-    # Custom CSS added to dark mode style.
-    customDarkCSS = "css/custom-dark.css"
 
     # Custom list of Javascript files to load. Just like custom CSS you can place js files under
     # `static/js` folder and specify path here as `js/script-name.js`.
-    customJS = ["js/abc.js", "js/xyz.js"]
+    customJS = []
 
 # Main menu which appears below site header.
 [[menu.main]]
