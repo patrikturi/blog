@@ -20,7 +20,8 @@ paginate = 10
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
-    subtitle = "My thoughts about software development 🧨"
+    subtitle = "My thoughts about software development"
+    subtitleIcon = "/icons/firecracker.png"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
