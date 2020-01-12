@@ -1,0 +1,4 @@
+[submodule "ezhil"] 
+  path = themes/ezhil
+  url = git@github.com:patrikturi/ezhil.git
+
