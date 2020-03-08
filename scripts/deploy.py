@@ -4,6 +4,7 @@ import os
 import sys
 import shutil
 import subprocess
+import shlex
 
 assert sys.version_info >= (3, 6)
 
@@ -14,7 +15,7 @@ DEST_REPO_URL = 'git@github.com:patrikturi/patrikturi.github.io.git'
 def run_git_command(command):
     full_command = f'git -C {DEST_REPO_PATH} ' + command
     print(f'\n  {full_command}\n')
-    subprocess.run(full_command, check=True)
+    subprocess.run(shlex.split(full_command), check=True)
 
 
 def clone_or_reset_dest_repo():
@@ -28,7 +29,7 @@ def clone_or_reset_dest_repo():
 
     cmd = f'git clone {DEST_REPO_URL} {DEST_REPO_PATH}'
     print(cmd)
-    subprocess.run(cmd, check=True)
+    subprocess.run(shlex.split(cmd), check=True)
 
 
 def remove_generated_files():
