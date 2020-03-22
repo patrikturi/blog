@@ -21,7 +21,6 @@ paginate = 10
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
     subtitle = "My thoughts about software development"
-    subtitleIcon = "/icons/firecracker.png"
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
@@ -31,9 +30,6 @@ paginate = 10
 
     # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
     featherIconsCDN = true
-
-    # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
-    favicon = "/icons/favicon.png"
 
     # Switch to dark mode or auto detect mode from OS (Optional).
     # "dark" will set mode to dark and "auto" will switch to dark mode if OS is in dark mode.
