@@ -16,7 +16,7 @@ googleAnalytics = "UA-154596262-1"
 disqusShortname = "patrik-on-tech"
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
+paginate = 6
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.
@@ -24,6 +24,8 @@ paginate = 10
 
     # Content types which are included in home page recent posts list.
     mainSections = ["posts"]
+
+    projectSections = ["projects"]
 
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
