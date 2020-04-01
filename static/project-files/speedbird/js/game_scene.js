@@ -187,7 +187,7 @@ function bindEnterframe() {
                             }
                         }
                         if(game_draw === false)
-                            gameWin(players[i]);
+                        gameWin(players[i]);
                     }
                     //For host and peer too:
                     //disable controls
@@ -334,7 +334,6 @@ function gameWin(player) {
     
     showWinText(win_text);
     player_won = player;
-    gameEndMessage();
 }
 
 function gameDraw(player) {
@@ -342,8 +341,6 @@ function gameDraw(player) {
     var win_text = "The game has ended in a draw!";
     
     showWinText(win_text);
-    
-    gameEndMessage();
 }
 
 
