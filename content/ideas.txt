@@ -1,0 +1,5 @@
+# Blog post ideas
+- My GTD system/tools
+- how to code good enough, what is good enough + research
+- transparency, monitoring
+- unit testing how to really apply
